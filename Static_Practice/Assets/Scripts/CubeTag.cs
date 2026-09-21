@@ -31,4 +31,10 @@ public class CubeTag : MonoBehaviour
     {
         return _tagCount;
     }
+    public static int ResetTagCount()
+    {
+        _tagCount = 0;
+        Debug.Log("초기화");
+        return _tagCount;
+    }
 }
