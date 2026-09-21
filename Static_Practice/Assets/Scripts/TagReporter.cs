@@ -1,0 +1,15 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class TagReporter : MonoBehaviour
+{
+    private void Start()
+    {
+        ReportCount();
+    }
+    private void ReportCount()
+    {
+        Debug.Log($"CubeTag에서 지금까지 센 개수 {CubeTag.GetTagCount()}");
+    }
+}

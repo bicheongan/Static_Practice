@@ -8,7 +8,6 @@ public class CubeTag : MonoBehaviour
     private static int _tagCount;
     private int _myTag;
 
-
     private void Awake()
     {
         TakeTag();
@@ -27,5 +26,9 @@ public class CubeTag : MonoBehaviour
         {
             Debug.Log("5를 초과하여 멈춤니다.");
         }
+    }
+    public static int GetTagCount()
+    {
+        return _tagCount;
     }
 }
