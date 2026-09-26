@@ -953,6 +953,7 @@ GameObject:
   - component: {fileID: 1819074837}
   - component: {fileID: 1819074836}
   - component: {fileID: 1819074838}
+  - component: {fileID: 1819074839}
   m_Layer: 0
   m_Name: Switcher
   m_TagString: Untagged
@@ -997,6 +998,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 50315e87d5a400345a5456e4e20998e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1819074839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819074835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9686d4ed3ef8f09428c4ce749f92c176, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1900176196

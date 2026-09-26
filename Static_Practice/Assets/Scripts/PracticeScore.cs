@@ -24,9 +24,9 @@ public class PracticeScore : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
-    public void AddPoint(int Score)
+    public void AddPoint(int point)
     {
-        _point += Score;
+        _point += point;
 
         Debug.Log($"PracticeScore: 점수가 {_point}가 되었습니다.");
     }
