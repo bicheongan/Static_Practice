@@ -15,16 +15,15 @@ public class CubeTag : MonoBehaviour
 
     private void TakeTag()
     {
-        _tagCount++;
         _myTag = _tagCount;
-
-        if (_tagCount <= PracticeSettings.MaxTagCount)
+        if (_tagCount >= PracticeSettings.MaxTagCount)
         {
-            Debug.Log($"CubeTag: 내 번호는 {_myTag}이고 지금까지 센 개수는 {_tagCount}");
+            Debug.Log("5를 초과하여 멈춤니다.");
         }
         else 
         {
-            Debug.Log("5를 초과하여 멈춤니다.");
+            _tagCount++;
+            Debug.Log($"CubeTag: 내 번호는 {_myTag}이고 지금까지 센 개수는 {_tagCount}");
         }
     }
     public static int GetTagCount()
